@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 1024px) {
   .nav-section {
-    padding-top: 14px;
+    margin-top: 14px;
   }
   .nav-list-link {
     padding-top: 0.26rem;

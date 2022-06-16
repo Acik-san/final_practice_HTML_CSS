@@ -21,29 +21,31 @@
     <link rel="stylesheet" href="assets/css/grid.css" />
     <link rel="stylesheet" href="./assets/css/header-section.css" />
     <link rel="stylesheet" href="./assets/css/nav-section.css" />
+    <link rel="stylesheet" href="./assets/css/form-section.css" />
+    <link rel="stylesheet" href="./assets/css/services-section.css">
   </head>
   <body>
     <section class="container">
       <header class="header">
-        <div class="flex header-margin">
+        <div class="flex justify-space-between align-center header-margin">
           <a href="#" class="logo margin">Классика права</a>
           <a href="#" class="burger burger-none"></a>
-          <div class="flex header-none">
-            <div class="margin">
-              <div class="flex">
+          <div class="flex justify-space-between align-center header-none">
+            <div class="margin-right">
+              <div class="flex justify-space-between align-center">
                 <div class="icon phone-icon"></div>
                 <div class="phone-number">+38 (000) 000-00-00</div>
               </div>
-              <div class="mulish-extralight text-align-right">
+              <div class="header-text text-align-right">
                 Бесплатная консультация
               </div>
             </div>
-            <a class="btn mulish-extralight margin uppercase"
+            <a class="btn btn-header header-text margin-right uppercase"
               >Заказать звонок</a
             >
-            <a href="" class="margin flex-column">
+            <a href="" class="margin-right flex flex-column">
               <div class="icon user-icon margin-auto"></div>
-              <div class="mulish-extralight uppercase">Войти/регестрация</div>
+              <div class="header-text uppercase">Войти/регестрация</div>
             </a>
           </div>
         </div>
@@ -52,7 +54,7 @@
     </section>
     <section class="nav-section">
       <nav class="container none block-lg">
-        <div class="row nav-margin align-items-center">
+        <div class="row nav-margin align-center">
           <ul class="nav-list uppercase col-11">
             <li class="nav-list-item">
               <a href="" class="nav-list-link"
@@ -165,9 +167,162 @@
               <a href="" class="nav-list-link">услуги </a>
             </li>
           </ul>
-          <a href="" class="icon search-btn "></a>
+          <a href="" class="icon search-btn"></a>
         </div>
       </nav>
+    </section>
+    <section class="form-section">
+      <div class="container">
+        <div class="row">
+          <article class="article col-12 none-md">
+            <h2 class="article-header article-header-size">
+              Задайте вопрос юристу онлайн
+            </h2>
+            <p class="row-overflow p-font-size">
+              Компания специализируется на оказании широкого спектра услуг как
+              для корпоративных клиентов так и для частных лиц. Профессионализм
+              и ответственность ключевые преимущества нашей компании.
+            </p>
+          </article>
+          <div class="statue col-12 col-md-5"></div>
+          <div class="block-md col-md-7">
+            <article class="article none-sm block-md">
+              <div class="flex justify-space-between align-center">
+                <h2
+                  class="article-header article-header-size col-md-8 col-lg-12"
+                >
+                  Задайте вопрос юристу онлайн
+                </h2>
+                <div
+                  class="online flex-md flex-column justify-center align-center none-lg"
+                >
+                  <div class="icon online-icon"></div>
+                  <p class="online-counter mulish-extralight">30 оналайн</p>
+                </div>
+              </div>
+              <div class="flex justify-space-between">
+                <p class="row-overflow p-font-size col-md-12 col-lg-11">
+                  Компания специализируется на оказании широкого спектра услуг
+                  как для корпоративных клиентов так и для частных лиц.
+                  Профессионализм и ответственность ключевые преимущества нашей
+                  компании.
+                </p>
+                <div
+                  class="online flex flex-column justify-center align-center none flex-lg"
+                >
+                  <div class="icon online-icon"></div>
+                  <p class="online-counter mulish-extralight">30 оналайн</p>
+                </div>
+              </div>
+            </article>
+            <form class="form flex flex-column justify-space-between" action="">
+              <input
+                type="text"
+                class="input-question"
+                placeholder="Введите Ваш вопрос..."
+              />
+              <input
+                type="text"
+                class="input-question"
+                placeholder="Введите Ваш вопрос..."
+              />
+              <div class="flex flex-wrap justify-space-between align-center">
+                <input
+                  type="checkbox"
+                  name="agreement"
+                  value="accept"
+                  required
+                />
+                <label class="label-chekbox col-lg-12" for="checkbox"
+                  >Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+                  конфидециальности
+                </label>
+                <input
+                  type="submit"
+                  class="btn submit-btn mulish-extralight"
+                  value="Отправить вопрос"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="hand-with-pan flex transform-reverse">
+            <div class="clip-path transform-reverse">
+              <div class="white-background none inline-block-md">
+                <div class="call-request flex flex-column justify-space-evenly">
+                  <h2 class="article-header">ЮРИСТЫ ДЛЯ БИЗНЕСА</h2>
+                  <p>Сопровождение юридических лиц во всех областях права</p>
+                  <a href="" class="btn mulish-extralight">Заказать звонок </a>
+                </div>
+              </div>
+            </div>
+            <div class="white-background none-md transform-reverse">
+              <div class="call-request flex flex-column justify-space-evenly">
+                <h2 class="article-header">ЮРИСТЫ ДЛЯ БИЗНЕСА</h2>
+                <p>Сопровождение юридических лиц во всех областях права</p>
+                <a href="" class="btn mulish-extralight">Заказать звонок </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services-section">
+      <div class="container">
+        <div class="row">
+          <article class="article col-12">
+            <h2 class="article-header article-header-size">Предоставляемые услуги</h2>
+            <p class="">Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
+          </article>
+          <div class="flex-sm align-center justify-center justify-space-between-md col-12 roboto-regular">
+            <button class="none block-md green-arrow green-arrow-left"></button>
+            <div class="none flex-md flex-column justify-end left-img">
+              <div class="flex flex-column srvices-margin">
+                <h3 class="services-text roboto-medium">Строительство зданий</h3>
+                <p class="services-text">Осуществляется от имени и в интересах лиц, участвующих в деле: сторон, третьих лиц, заявителей и иных заинтересованных лиц.</p>
+                <a href="" class="services-text">Подробнее</a>
+              </div>
+            </div>
+            <div class="flex flex-column justify-end middle-img">
+              <div class="flex flex-column srvices-margin">
+                <h3 class="services-text roboto-medium">Ремонт оборудования</h3>
+                <p class="services-text">Частичная или полная передача работ по поддержке, обслуживанию и модернизации ИТ-инфраструктуры в руки компаний.</p>
+                <a href="" class="services-text">Подробнее</a>
+              </div>
+            </div>
+            <div class="none flex-md flex-column justify-end right-img">
+              <div class="flex flex-column srvices-margin">
+                <h3 class="services-text roboto-medium">Курсы английского</h3>
+                <p class="services-text">Проверка финансово-экономической деятельности организации, проводимая аудитором.</p>
+                <a href="" class="services-text">Подробнее</a>
+              </div>
+            </div>
+            <button class="none block-md green-arrow green-arrow-right"></button>
+          </div>
+            <ul class="flex justify-center col-12">
+              <li class="strip-list-item">
+                <a id="services1" href="#services1" class="strip inline-block"></a>
+              </li>
+              <li class="strip-list-item">
+                <a id="services2" href="#services2" class="strip inline-block"></a>
+              </li>
+              <li class="strip-list-item">
+                <a id="services3" href="#services3" class="strip inline-block"></a>
+              </li>
+              <li class="strip-list-item">
+                <a id="services4" href="#services4" class="strip inline-block"></a>
+              </li>
+              <li class="strip-list-item">
+                <a id="services5" href="#services5" class="strip inline-block"></a>
+              </li>
+              <li class="strip-list-item">
+                <a id="services6" href="#services6" class="strip inline-block"></a>
+              </li>
+            </ul>
+            <div class="flex none-md justify-center col-12">
+              <button class="green-arrow-right-margin green-arrow green-arrow-left"></button>
+              <button class="green-arrow-left-margin green-arrow green-arrow-right"></button>
+            </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>

@@ -1,0 +1,523 @@
+.services-section {
+  margin-top: 1rem;
+}
+.services-text {
+  color: var(--white-text-color);
+}
+div.roboto-regular {
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+.green-arrow {
+  width: 25px;
+  height: 26px;
+  border: none;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+.green-arrow-left-margin{
+  margin-left: 14px;
+}
+.green-arrow-right-margin{
+  margin-right: 14px;
+}
+.green-arrow-left {
+  background-image: url(./../icons/Green_arrow_left_768.svg);
+}
+.green-arrow-right {
+  background-image: url(./../icons/Green_arrow_right_768.svg);
+}
+.middle-img {
+  width: 211px;
+  height: 317.38px;
+  background: linear-gradient(
+      180deg,
+      #414141 -49.24%,
+      rgba(65, 65, 65, 0) 120.35%
+    ),
+    linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+    url(./../images/Welder.jpg);
+  background-repeat: no-repeat;
+  background-position-x: -131px;
+  background-size: 226%;
+  filter: drop-shadow(0px 2.35098px 17.6323px rgba(0, 0, 0, 0.25));
+  border-radius: 5.87744px;
+}
+.srvices-margin {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+h3.services-text {
+  font-size: 17.63px;
+  line-height: 20.66px;
+}
+p.services-text {
+  margin-top: 10px;
+  font-size: 11.17px;
+  line-height: 13px;
+}
+a.services-text {
+  margin-top: 13px;
+  margin-bottom: 9px;
+  align-self: center;
+  font-size: 10.58px;
+  line-height: 12.4px;
+}
+.middle-img * a {
+  margin-top: 46px;
+  margin-bottom: 18px;
+}
+.strip {
+  width: 28px;
+  height: 4px;
+  background-image: url(./../icons/Strip.svg);
+}
+.strip:target {
+  background-image: url(./../icons/Strip_green.svg);
+}
+ul > .strip-list-item:not(:first-child) {
+  margin-left: 7px;
+  margin-bottom: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .article-header + p {
+    width: 665px;
+    margin: auto;
+  }
+  div.roboto-regular {
+    margin-top: 39px;
+    margin-bottom: 40px;
+  }
+  .green-arrow {
+    margin-top: 45px;
+    width: 25px;
+    height: 26px;
+    border: none;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+  }
+  .green-arrow-left {
+    background-image: url(./../icons/Green_arrow_left_768.svg);
+  }
+  .green-arrow-right {
+    background-image: url(./../icons/Green_arrow_right_768.svg);
+  }
+  .left-img {
+    margin-top: 28px;
+    width: 170.77px;
+    height: 254.31px;
+    background: linear-gradient(
+        180deg,
+        #414141 -15.76%,
+        rgba(65, 65, 65, 0) 115.22%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%),
+      url(./../images/Architect.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -127px;
+    background-size: 250%;
+    filter: drop-shadow(0px 2.11486px 15.8614px rgba(0, 0, 0, 0.25));
+    border-radius: 5.28714px;
+  }
+  .middle-img {
+    width: 189.81px;
+    height: 285.51px;
+    background: linear-gradient(
+        180deg,
+        #414141 -49.24%,
+        rgba(65, 65, 65, 0) 120.35%
+      ),
+      linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+      url(./../images/Welder.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -119px;
+    background-size: 226%;
+    filter: drop-shadow(0px 2.11486px 15.8614px rgba(0, 0, 0, 0.25));
+    border-radius: 5.28714px;
+  }
+  .right-img {
+    margin-top: 28px;
+    width: 170.77px;
+    height: 254.31px;
+    background: linear-gradient(
+        180deg,
+        #414141 -29%,
+        rgba(65, 65, 65, 0) 122.87%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 18.44%),
+      url(./../images/English_course.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -48px;
+    background-size: 157%;
+    filter: drop-shadow(0px 2.11486px 15.8614px rgba(0, 0, 0, 0.25));
+    border-radius: 5.28714px;
+  }
+  .srvices-margin {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  h3.services-text {
+    font-size: 15.86px;
+    line-height: 18.59px;
+  }
+  p.services-text {
+    margin-top: 6px;
+    font-size: 10.05px;
+    line-height: 11.77px;
+  }
+  a.services-text {
+    margin-top: 13px;
+    margin-bottom: 9px;
+    align-self: center;
+    font-size: 9.52px;
+    line-height: 11.15px;
+  }
+  .middle-img * a {
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .strip {
+    width: 37px;
+    height: 5px;
+    background-image: url(./../icons/Strip_768.svg);
+  }
+  .strip:target {
+    background-image: url(./../icons/Strip_green_768.svg);
+  }
+  ul > .strip-list-item:not(:first-child) {
+    margin-left: 9px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .services-section {
+    margin-top: 2rem;
+  }
+  div.roboto-regular {
+    margin-top: 45px;
+    margin-bottom: 53px;
+  }
+  .green-arrow {
+    margin-top: 45px;
+    width: 34px;
+    height: 34px;
+    border: none;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+  }
+  .green-arrow-left {
+    background-image: url(./../icons/Green_arrow_left_1024.svg);
+  }
+  .green-arrow-right {
+    background-image: url(./../icons/Green_arrow_right_1024.svg);
+  }
+  .left-img {
+    margin-top: 38px;
+    width: 227.53px;
+    height: 338.83px;
+    background: linear-gradient(
+        180deg,
+        #414141 -15.76%,
+        rgba(65, 65, 65, 0) 115.22%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%),
+      url(./../images/Architect.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -170px;
+    background-size: 250%;
+    filter: drop-shadow(0px 2.81774px 21.1331px rgba(0, 0, 0, 0.25));
+    border-radius: 7.04435px;
+  }
+  .middle-img {
+    width: 252.89px;
+    height: 380.39px;
+    background: linear-gradient(
+        180deg,
+        #414141 -49.24%,
+        rgba(65, 65, 65, 0) 120.35%
+      ),
+      linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+      url(./../images/Welder.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -159px;
+    background-size: 226%;
+    filter: drop-shadow(0px 2.81774px 21.1331px rgba(0, 0, 0, 0.25));
+    border-radius: 7.04435px;
+  }
+  .right-img {
+    margin-top: 38px;
+    width: 227.53px;
+    height: 338.83px;
+    background: linear-gradient(
+        180deg,
+        #414141 -29%,
+        rgba(65, 65, 65, 0) 122.87%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 18.44%),
+      url(./../images/English_course.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -65px;
+    background-size: 157%;
+    filter: drop-shadow(0px 2.81774px 21.1331px rgba(0, 0, 0, 0.25));
+    border-radius: 7.04435px;
+  }
+  .srvices-margin {
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  h3.services-text {
+    font-size: 21.13px;
+    line-height: 24.77px;
+  }
+  p.services-text {
+    margin-top: 10px;
+    font-size: 13.38px;
+    line-height: 15.68px;
+  }
+  a.services-text {
+    margin-top: 17px;
+    margin-bottom: 12px;
+    align-self: center;
+    font-size: 12.68px;
+    line-height: 14.86px;
+  }
+  .middle-img * a {
+    margin-top: 49px;
+    margin-bottom: 21px;
+  }
+  .strip {
+    width: 49px;
+    height: 6px;
+    background-image: url(./../icons/Strip_1024.svg);
+  }
+  .strip:target {
+    background-image: url(./../icons/Strip_green_1024.svg);
+  }
+  ul > .strip-list-item:not(:first-child) {
+    margin-left: 11px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .services-section {
+    margin-top: 2rem;
+  }
+  .article-header + p {
+    width: 967px;
+  }
+  div.roboto-regular {
+    margin-top: 90px;
+    margin-bottom: 65px;
+  }
+  .green-arrow {
+    margin-top: 45px;
+    width: 41px;
+    height: 42px;
+    border: none;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+  }
+  .green-arrow-left {
+    background-image: url(./../icons/Green_arrow_left_1336.svg);
+  }
+  .green-arrow-right {
+    background-image: url(./../icons/Green_arrow_right_1336.svg);
+  }
+  .left-img {
+    margin-top: 45px;
+    width: 276.34px;
+    height: 411.52px;
+    background: linear-gradient(
+        180deg,
+        #414141 -15.76%,
+        rgba(65, 65, 65, 0) 115.22%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%),
+      url(./../images/Architect.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -208px;
+    background-size: 250%;
+    filter: drop-shadow(0px 3.42222px 25.6667px rgba(0, 0, 0, 0.25));
+    border-radius: 8.55556px;
+  }
+  .middle-img {
+    width: 307.14px;
+    height: 462px;
+    background: linear-gradient(
+        180deg,
+        #414141 -49.24%,
+        rgba(65, 65, 65, 0) 120.35%
+      ),
+      linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+      url(./../images/Welder.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -190px;
+    background-size: 226%;
+    filter: drop-shadow(0px 3.42222px 25.6667px rgba(0, 0, 0, 0.25));
+    border-radius: 8.55556px;
+  }
+  .right-img {
+    margin-top: 45px;
+    width: 276.34px;
+    height: 411.52px;
+    background: linear-gradient(
+        180deg,
+        #414141 -29%,
+        rgba(65, 65, 65, 0) 122.87%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 18.44%),
+      url(./../images/English_course.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -79px;
+    background-size: 157%;
+    filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+    border-radius: 8.55556px;
+  }
+  .srvices-margin {
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+  h3.services-text {
+    font-size: 25.67px;
+    line-height: 30.08px;
+  }
+  p.services-text {
+    margin-top: 10px;
+    font-size: 16.26px;
+    line-height: 19.05px;
+  }
+  a.services-text {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    align-self: center;
+    font-size: 15.4px;
+    line-height: 18.05px;
+  }
+  .middle-img * a {
+    margin-top: 62px;
+    margin-bottom: 26px;
+  }
+  .strip {
+    width: 58.1px;
+    height: 7px;
+    background-image: url(./../icons/Strip_1336.svg);
+  }
+  .strip:target {
+    background-image: url(./../icons/Strip_green_1336.svg);
+  }
+  ul > .strip-list-item:not(:first-child) {
+    margin-left: 12px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .services-section {
+    margin-top: 3rem;
+  }
+  .article-header + p {
+    width: 1374.48px;
+  }
+  div.roboto-regular {
+    margin-top: 105px;
+    margin-bottom: 92px;
+  }
+  .green-arrow {
+    margin-top: 65px;
+    width: 58.16px;
+    height: 57.16px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .green-arrow-left {
+    background-image: url(./../icons/Green_arrow_left_1920.svg);
+  }
+  .green-arrow-right {
+    background-image: url(./../icons/Green_arrow_right_1920.svg);
+  }
+  .left-img {
+    margin-top: 65px;
+    width: 392.79px;
+    height: 584.93px;
+    background: linear-gradient(
+        180deg,
+        #414141 -15.76%,
+        rgba(65, 65, 65, 0) 115.22%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 30.83%),
+      url(./../images/Architect.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -289px;
+    background-size: 250%;
+    filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+    border-radius: 12.1607px;
+  }
+  .middle-img {
+    width: 436.57px;
+    height: 656.68px;
+    background: linear-gradient(
+        180deg,
+        #414141 -49.24%,
+        rgba(65, 65, 65, 0) 120.35%
+      ),
+      linear-gradient(0deg, #65c466 0%, rgba(37, 137, 249, 0) 23.16%),
+      url(./../images/Welder.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -279px;
+    background-size: 226%;
+    filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+    border-radius: 12.1607px;
+  }
+  .right-img {
+    margin-top: 65px;
+    width: 392.79px;
+    height: 584.93px;
+    background: linear-gradient(
+        180deg,
+        #414141 -29%,
+        rgba(65, 65, 65, 0) 122.87%
+      ),
+      linear-gradient(359.99deg, #65c466 0.01%, rgba(37, 137, 249, 0) 18.44%),
+      url(./../images/English_course.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -114px;
+    background-size: 157%;
+    filter: drop-shadow(0px 4.86428px 36.4821px rgba(0, 0, 0, 0.25));
+    border-radius: 12.1607px;
+  }
+  .srvices-margin {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  h3.services-text {
+    font-size: 36.48px;
+    line-height: 42.75px;
+  }
+  p.services-text {
+    margin-top: 10px;
+    font-size: 23.11px;
+    line-height: 27.08px;
+  }
+  a.services-text {
+    margin-top: 33px;
+    margin-bottom: 22px;
+    align-self: center;
+    font-size: 21.89px;
+    line-height: 25.65px;
+  }
+  .middle-img * p {
+    margin-top: 29px;
+  }
+  .middle-img * a {
+    margin-top: 89px;
+    margin-bottom: 38px;
+  }
+  .strip {
+    width: 82.58px;
+    height: 9.95px;
+    background-image: url(./../icons/Strip_1920.svg);
+  }
+  .strip:target {
+    background-image: url(./../icons/Strip_green_1920.svg);
+  }
+  ul > .strip-list-item:not(:first-child) {
+    margin-left: 20px;
+  }
+}
