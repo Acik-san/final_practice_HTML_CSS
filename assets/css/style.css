@@ -61,7 +61,10 @@ p {
   font-style: italic;
   font-weight: 200;
 }
-
+.mulish-medium{
+  font-style: normal;
+  font-weight: 500;
+}
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -140,6 +143,9 @@ input[type="checkbox"]:checked::after {
 @media screen and (min-width: 768px) {
   .justify-space-between-md{
     justify-content: space-between;
+  }
+  .flex-row-md{
+    flex-direction: row;
   }
   .burger {
     width: 3.062rem;
