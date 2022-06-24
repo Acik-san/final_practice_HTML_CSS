@@ -1,6 +1,7 @@
 :root {
   --green-color: #65c466;
   --dark-grey: #414141;
+  --medium-grey: #696969;
   color: #a3a3a3;
   --white-text-color: #ffffff;
   --beige-color: #e8e2d5;
@@ -27,7 +28,7 @@ p {
 .flex-wrap {
   flex-wrap: wrap;
 }
-.justify-end{
+.justify-end {
   justify-content: flex-end;
 }
 .justify-space-between {
@@ -45,6 +46,9 @@ p {
 .align-center {
   align-items: center;
 }
+.align-end {
+  align-items: end;
+}
 .burger {
   display: inline-block;
   width: 2.25rem;
@@ -61,7 +65,7 @@ p {
   font-style: italic;
   font-weight: 200;
 }
-.mulish-medium{
+.mulish-medium {
   font-style: normal;
   font-weight: 500;
 }
@@ -141,10 +145,10 @@ input[type="checkbox"]:checked::after {
 }
 
 @media screen and (min-width: 768px) {
-  .justify-space-between-md{
+  .justify-space-between-md {
     justify-content: space-between;
   }
-  .flex-row-md{
+  .flex-row-md {
     flex-direction: row;
   }
   .burger {

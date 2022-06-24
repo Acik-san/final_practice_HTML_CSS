@@ -1,0 +1,317 @@
+.consultation-section {
+  margin-top: 39px;
+}
+.header-another-color {
+  color: var(--dark-grey);
+}
+.instructions-list {
+  margin-top: 21px;
+}
+.instructions-list-item {
+  position: relative;
+  padding-left: 21px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  line-height: 13.81px;
+  color: var(--dark-grey);
+}
+.instructions-list-item::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 2px;
+  left: 0;
+  background-image: url(./../icons/List_circle.svg);
+}
+.iphone {
+  order: 1;
+  width: 168px;
+  height: 247px;
+  background-image: url(./../images/Iphone.jpg);
+  background-repeat: no-repeat;
+  background-position-x: -14px;
+  object-fit: cover;
+}
+.consultation-form {
+  /* height: 192.62px; */
+  margin-top: 40px;
+  font-size: 11.72px;
+  line-height: 14.71px;
+}
+.consultation-form-label {
+  position: relative;
+}
+.consultation-form-label::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 21px;
+  left: 0;
+  background-repeat: no-repeat;
+}
+.label-human::after {
+  background-image: url(./../icons/Form_human.svg);
+}
+.label-phone::after {
+  background-image: url(./../icons/Form_phone.svg);
+}
+.consultation-form-input {
+  padding: 8px;
+  padding-left: 27px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid var(--medium-grey);
+  margin-bottom: 19px;
+  font-weight: 400;
+  color: var(--dark-grey);
+}
+.consultation-form-input:focus {
+  border-bottom: 2px solid var(--green-color);
+}
+.consultation-form-submit {
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 12px;
+  font-size: 10px;
+  line-height: 12.5px;
+  text-align: center;
+  align-self: center;
+}
+.consultation-privacy-terms {
+  font-size: 6.51px;
+  line-height: 8.17px;
+  text-align: center;
+}
+.consultation-privacy-terms > a {
+  color: var(--dark-grey);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .consultation-article {
+    margin-top: 55px;
+  }
+  .instructions-list-item {
+    margin-bottom: 20px;
+    font-size: 12.73px;
+    line-height: 15.98px;
+  }
+  .iphone {
+    order: 0;
+    width: 204px;
+    height: 299px;
+    background-image: url(./../images/Iphone_768.jpg);
+    background-position-x: 19px;
+  }
+  .consultation-form {
+    margin-top: 66px;
+    font-size: 12.73px;
+    line-height: 15.98px;
+  }
+  .consultation-form-label::after {
+    width: 18px;
+    height: 18px;
+    top: 21px;
+    left: 0;
+  }
+  .label-human::after {
+    background-image: url(./../icons/Form_human_768.svg);
+  }
+  .label-phone::after {
+    background-image: url(./../icons/Form_phone_768.svg);
+  }
+  .consultation-form-submit {
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 12.73px;
+    line-height: 15.98px;
+  }
+  .consultation-privacy-terms {
+    align-self: center;
+    width: 169.58px;
+    font-size: 7.07px;
+    line-height: 8.88px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .consultation-article {
+    margin-top: 75px;
+  }
+  .iphone {
+    order: 0;
+    width: 255.33px;
+    height: 374.15px;
+    background-image: url(./../images/Iphone_1024.jpg);
+    background-position-x: 50px;
+  }
+  .consultation-form {
+    margin-top: 85px;
+    flex-basis: 188.14px;
+    font-size: 12.73px;
+    line-height: 15.98px;
+  }
+  .consultation-form-label::after {
+    width: 18px;
+    height: 18px;
+    top: 21px;
+    left: 0;
+  }
+  .label-human::after {
+    background-image: url(./../icons/Form_human_768.svg);
+  }
+  .label-phone::after {
+    background-image: url(./../icons/Form_phone_768.svg);
+  }
+  .consultation-form-submit {
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 12.73px;
+    line-height: 15.98px;
+  }
+  .consultation-privacy-terms {
+    align-self: center;
+    width: 169.58px;
+    font-size: 7.07px;
+    line-height: 8.88px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .consultation-article {
+    margin-top: 105px;
+  }
+  .instructions-list {
+    margin-top: 42px;
+  }
+  .instructions-list-item {
+    position: relative;
+    padding-left: 21px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22.59px;
+    color: var(--dark-grey);
+  }
+  .instructions-list-item::before {
+    width: 12px;
+    height: 12px;
+    top: 1px;
+    left: 0;
+    background-image: url(./../icons/List_circle_1336.svg);
+  }
+  .iphone {
+    order: 0;
+    width: 361px;
+    height: 529px;
+    background-image: url(./../images/Iphone_1336.jpg);
+    background-position-x: 50px;
+  }
+  .consultation-form {
+    margin-top: 118px;
+    flex-basis: 266px;
+    font-size: 18px;
+    line-height: 22.59px;
+  }
+  .consultation-form-label::after {
+    width: 24px;
+    height: 24px;
+    top: 36px;
+    left: 0;
+  }
+  .label-human::after {
+    background-image: url(./../icons/Form_human_1336.svg);
+  }
+  .label-phone::after {
+    background-image: url(./../icons/Form_phone_1336.svg);
+  }
+  .consultation-form-input {
+    padding: 8px;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+  }
+  .consultation-form-submit {
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22.59px;
+  }
+  .consultation-privacy-terms {
+    align-self: center;
+    width: 244px;
+    font-size: 10px;
+    line-height: 12.55px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .consultation-article {
+    margin-top: 150px;
+  }
+  .instructions-list {
+    margin-top: 42px;
+  }
+  .instructions-list-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 25.58px;
+    line-height: 32.11px;
+    color: var(--dark-grey);
+  }
+  .instructions-list-item::before {
+    width: 18px;
+    height: 18px;
+    top: 8px;
+    left: 0;
+    background-image: url(./../icons/List_circle_1920.svg);
+  }
+  .iphone {
+    order: 0;
+    width: 513.12px;
+    height: 751.91px;
+    background-image: url(./../images/Iphone_1920.jpg);
+    background-position-x: 50px;
+  }
+  .consultation-form {
+    margin-top: 165px;
+    flex-basis: 405px;
+    font-size: 25.58px;
+    line-height: 32.11px;
+  }
+  .consultation-form-label::after {
+    width: 35px;
+    height: 35px;
+    top: 56px;
+    left: 0;
+  }
+  .label-human::after {
+    background-image: url(./../icons/Form_human_1920.svg);
+  }
+  .label-phone::after {
+    background-image: url(./../icons/Form_phone_1920.svg);
+  }
+  .consultation-form-input {
+    padding: 8px;
+    padding-left: 55px;
+    margin-top: 22px;
+    margin-bottom: 35px;
+  }
+  .consultation-form-submit {
+    width: 85%;
+    padding: 9px;
+    margin-bottom: 35px;
+    font-size: 25.58px;
+    line-height: 32.11px;
+  }
+  .consultation-privacy-terms {
+    align-self: center;
+    width: 244px;
+    font-size: 10px;
+    line-height: 12.55px;
+  }
+}

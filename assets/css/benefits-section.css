@@ -1,4 +1,4 @@
-.a {
+.benefits-block {
   width: 245px;
   height: 142px;
   margin-top: 19px;
@@ -57,24 +57,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .a {
+  .benefits-block {
     margin-top: 43px;
     margin-left: 29px
   }
-  ul > li:nth-child(2n+1) > .a {
+  ul > li:nth-child(2n+1) > .benefits-block {
     margin-left: 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  .a {
+  .benefits-block {
     margin-top: 38px;
     width: 187.3px;
     height: 158.16px;
   }
-  ul > li:nth-child(1n) > .a {
+  ul > li:nth-child(1n) > .benefits-block {
     margin-left: 20px;
   }
-  ul > li:first-child > .a {
+  ul > li:first-child > .benefits-block {
     margin-left: 0;
   }
   .benefits-description {
@@ -83,15 +83,15 @@
   }
 }
 @media screen and (min-width: 1336px) {
-  .a {
+  .benefits-block {
     margin-top: 70px;
     width: 270px;
     height: 228px;
   }
-  ul > li:nth-child(1n) > .a {
+  ul > li:nth-child(1n) > .benefits-block {
     margin-left: 30px;;
   }
-  ul > li:first-child > .a {
+  ul > li:first-child > .benefits-block {
     margin-left: 0;
   }
   .benefits-header {
@@ -132,15 +132,15 @@
   }
 }
 @media screen and (min-width: 1920px) {
-  .a {
+  .benefits-block {
     margin-top: 70px;
     width: 383.77px;
     height: 324.08px;
   }
-  ul > li:nth-child(1n) > .a {
+  ul > li:nth-child(1n) > .benefits-block {
     margin-left: 42px;
   }
-  ul > li:first-child > .a {
+  ul > li:first-child > .benefits-block {
     margin-left: 0;
   }
   .benefits-header {
