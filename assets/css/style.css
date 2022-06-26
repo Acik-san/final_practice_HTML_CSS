@@ -175,6 +175,18 @@ input[type="checkbox"]:checked::after {
   }
 }
 @media screen and (min-width: 1024px) {
+  .justify-space-between-lg {
+    justify-content: space-between;
+  }
+  .justify-center-lg {
+    justify-content: center;
+  }
+  .justify-space-evenly-lg {
+    justify-content: space-evenly;
+  }
+  .justify-space-around-lg {
+    justify-content: space-around;
+  }
   .burger-none {
     display: none;
   }
@@ -201,6 +213,18 @@ input[type="checkbox"]:checked::after {
   .p-font-size {
     font-size: 1rem;
     line-height: 1.25rem;
+  }
+  .justify-space-between-xl {
+    justify-content: space-between;
+  }
+  .justify-center-xl {
+    justify-content: center;
+  }
+  .justify-space-evenly-xl {
+    justify-content: space-evenly;
+  }
+  .justify-space-around-xl {
+    justify-content: space-around;
   }
   .burger-none {
     display: none;

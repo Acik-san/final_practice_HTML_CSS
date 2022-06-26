@@ -1,0 +1,373 @@
+.reviews-section {
+  margin-top: 20px;
+}
+.reviews-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 299px;
+  height: 167px;
+  box-shadow: inset 0px 0px 28.4276px rgba(0, 0, 0, 0.08);
+  border-radius: 14.2138px;
+}
+.reviews-list {
+  position: relative;
+}
+.reviews-arrow-left {
+  position: absolute;
+  top: 135px;
+  left: 62px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  background-image: url(./../icons/Reviews_arrow_left_1024.svg);
+}
+.reviews-arrow-left:active {
+  border-radius: 50%;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  background-image: url(./../icons/Reviews_arrow_left_solid_1024.svg);
+}
+.reviews-arrow-right {
+  position: absolute;
+  top: 135px;
+  right: 62px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  background-image: url(./../icons/Reviews_arrow_right_1024.svg);
+}
+.reviews-arrow-right:active {
+  border-radius: 50%;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  background-image: url(./../icons/Reviews_arrow_right_solid_1024.svg);
+}
+.reviews-block-inner-margin {
+  margin-left: 12px;
+}
+.star-icon {
+  margin-top: 10px;
+  width: 13px;
+  height: 13px;
+  background-image: url(./../icons/Star_1024.svg);
+}
+ul > .star-icon:not(:first-child) {
+  margin-left: 2px;
+}
+.reviews {
+  width: 279.6px;
+  flex-basis: 47.88px;
+  font-size: 13.18px;
+  height: 16.54px;
+  color: var(--medium-grey);
+}
+.reviews-avatar {
+  width: 36.77px;
+  height: 36.77px;
+  border-radius: 50%;
+}
+.reviews-fullname-company-margin {
+  margin-left: 14.57px;
+}
+.reviews-fullname {
+  font-family: "TrajanPro3";
+  font-size: 12.49px;
+  line-height: 14.99px;
+  color: var(--dark-grey);
+}
+.reviews-company {
+  font-size: 9.02px;
+  line-height: 11.32px;
+  color: var(--green-color);
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    margin-top: 52px;
+  }
+  ul.reviews-list > li:first-of-type > article {
+    margin-right: 8.5px;
+  }
+  ul.reviews-list > li:last-of-type > article {
+    margin-left: 8.5px;
+  }
+  .reviews-block {
+    margin-top: 38px;
+    margin-bottom: 40px;
+    width: 345.48px;
+    height: 166.7px;
+  }
+  .reviews-arrow-left {
+    top: 114px;
+    left: -5px;
+    width: 27px;
+    height: 27px;
+    background-image: url(./../icons/Reviews_arrow_left_768.svg);
+  }
+  .reviews-arrow-left:active {
+    background-image: url(./../icons/Reviews_arrow_left_solid_768.svg);
+  }
+  .reviews-arrow-right {
+    top: 114px;
+    right: -5px;
+    width: 27px;
+    height: 27px;
+    background-image: url(./../icons/Reviews_arrow_right_768.svg);
+  }
+  .reviews-arrow-right:active {
+    background-image: url(./../icons/Reviews_arrow_right_solid_768.svg);
+  }
+  .reviews-block-inner-margin {
+    margin-left: 35px;
+  }
+  .star-icon {
+    margin-top: 10px;
+    width: 13px;
+    height: 13px;
+    background-image: url(./../icons/Star_1024.svg);
+  }
+  ul > .star-icon:not(:first-child) {
+    margin-left: 2px;
+  }
+  .reviews {
+    width: 279.6px;
+    flex-basis: 47.88px;
+    font-size: 13.18px;
+    height: 16.54px;
+  }
+  .reviews-avatar {
+    width: 36.77px;
+    height: 36.77px;
+  }
+  .reviews-fullname-company-margin {
+    margin-left: 14.57px;
+  }
+  .reviews-fullname {
+    font-size: 12.49px;
+    line-height: 14.99px;
+  }
+  .reviews-company {
+    font-size: 9.02px;
+    line-height: 11.32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .reviews-section {
+    margin-top: 63px;
+  }
+  ul.reviews-list > li:first-of-type > article {
+    margin-right: 10px;
+  }
+  ul.reviews-list > li:last-of-type > article {
+    margin-left: 10px;
+  }
+  .reviews-block {
+    margin-top: 43px;
+    margin-bottom: 40px;
+    width: 396.88px;
+    height: 191.5px;
+  }
+  .reviews-arrow-left {
+    top: 135px;
+    left: 62px;
+    width: 21px;
+    height: 21px;
+    background-image: url(./../icons/Reviews_arrow_left_1024.svg);
+  }
+  .reviews-arrow-left:active {
+    background-image: url(./../icons/Reviews_arrow_left_solid_1024.svg);
+  }
+  .reviews-arrow-right {
+    top: 135px;
+    right: 62px;
+    width: 21px;
+    height: 21px;
+    background-image: url(./../icons/Reviews_arrow_right_1024.svg);
+  }
+  .reviews-arrow-right:active {
+    background-image: url(./../icons/Reviews_arrow_right_solid_1024.svg);
+  }
+  .reviews-block-inner-margin {
+    margin-left: 38px;
+  }
+  .star-icon {
+    margin-top: 10px;
+    width: 13px;
+    height: 13px;
+    background-image: url(./../icons/Star_1024.svg);
+  }
+  ul > .star-icon:not(:first-child) {
+    margin-left: 5.55px;
+  }
+  .reviews {
+    width: 279.6px;
+    flex-basis: 47.88px;
+    font-size: 13.18px;
+    height: 16.54px;
+  }
+  .reviews-avatar {
+    width: 36.77px;
+    height: 36.77px;
+  }
+  .reviews-fullname-company-margin {
+    margin-left: 14.57px;
+  }
+  .reviews-fullname {
+    font-size: 12.49px;
+    line-height: 14.99px;
+  }
+  .reviews-company {
+    font-size: 9.02px;
+    line-height: 11.32px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .reviews-section {
+    margin-top: 78px;
+  }
+  .reviews-block {
+    margin-top: 57px;
+    margin-bottom: 57px;
+    width: 572px;
+    height: 276px;
+  }
+  .reviews-arrow-left {
+    top: 184px;
+    left: -16px;
+    width: 30px;
+    height: 30px;
+    background-image: url(./../icons/Reviews_arrow_left_1336.svg);
+  }
+  .reviews-arrow-left:active {
+    background-image: url(./../icons/Reviews_arrow_left_solid_1336.svg);
+  }
+  .reviews-arrow-right {
+    top: 184px;
+    right: -16px;
+    width: 30px;
+    height: 30px;
+    background-image: url(./../icons/Reviews_arrow_right_1336.svg);
+  }
+  .reviews-arrow-right:active {
+    background-image: url(./../icons/Reviews_arrow_right_solid_1336.svg);
+  }
+  .reviews-block-inner-margin {
+    margin-left: 55px;
+  }
+  .star-icon {
+    margin-top: 15px;
+    width: 18px;
+    height: 17px;
+    background-image: url(./../icons/Star_1336.svg);
+  }
+  ul > .star-icon:not(:first-child) {
+    margin-left: 8px;
+  }
+  .reviews {
+    width: 390px;
+    flex-basis: 72px;
+    font-size: 19px;
+    height: 23.85px;
+  }
+  .reviews-avatar {
+    width: 53px;
+    height: 53px;
+  }
+  .reviews-fullname-company-margin {
+    margin-left: 21px;
+  }
+  .reviews-fullname {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+  .reviews-company {
+    font-size: 13px;
+    line-height: 16.32px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .reviews-section {
+    margin-top: 110px;
+  }
+  .reviews-block {
+    margin-top: 87px;
+    margin-bottom: 81px;
+    width: 813.03px;
+    height: 392.3px;
+    box-shadow: inset 0px 0px 28.4276px rgba(0, 0, 0, 0.08);
+    border-radius: 14.2138px;
+  }
+  .reviews-list {
+    position: relative;
+  }
+  .reviews-arrow-left {
+    position: absolute;
+    top: 259px;
+    left: -23px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    background-color: #ffffff;
+    background-image: url(./../icons/Reviews_arrow_left_1920.svg);
+  }
+  .reviews-arrow-left:active {
+    border-radius: 50%;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    background-image: url(./../icons/Reviews_arrow_left_solid_1920.svg);
+  }
+  .reviews-arrow-right {
+    position: absolute;
+    top: 259px;
+    right: -23px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    background-color: #ffffff;
+    background-image: url(./../icons/Reviews_arrow_right_1920.svg);
+  }
+  .reviews-arrow-right:active {
+    border-radius: 50%;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    background-image: url(./../icons/Reviews_arrow_right_solid_1920.svg);
+  }
+  .reviews-block-inner-margin {
+    margin-left: 81px;
+  }
+  .star-icon {
+    margin-top: 22px;
+    width: 26px;
+    height: 25px;
+    background-image: url(./../icons/Star_1920.svg);
+  }
+  ul > .star-icon:not(:first-child) {
+    margin-left: 11px;
+  }
+  .reviews {
+    width: 554.34px;
+    flex-basis: 98.08px;
+    font-size: 27.01px;
+    height: 33.89px;
+    color: var(--medium-grey);
+  }
+  .reviews-avatar {
+    width: 74.33px;
+    height: 74.33px;
+    border-radius: 50%;
+  }
+  .reviews-fullname-company-margin {
+    margin-left: 30px;
+  }
+  .reviews-fullname {
+    font-family: "TrajanPro3";
+    font-size: 25.58px;
+    line-height: 30.7px;
+    color: var(--dark-grey);
+  }
+  .reviews-company {
+    font-size: 18.48px;
+    line-height: 23.19px;
+    color: var(--green-color);
+  }
+}
