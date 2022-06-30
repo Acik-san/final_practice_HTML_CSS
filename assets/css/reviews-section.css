@@ -51,7 +51,7 @@
   margin-top: 10px;
   width: 13px;
   height: 13px;
-  background-image: url(./../icons/Star_1024.svg);
+  background-image: url(./../icons/Star.svg);
 }
 ul > .star-icon:not(:first-child) {
   margin-left: 2px;
@@ -122,36 +122,6 @@ ul > .star-icon:not(:first-child) {
   .reviews-block-inner-margin {
     margin-left: 35px;
   }
-  .star-icon {
-    margin-top: 10px;
-    width: 13px;
-    height: 13px;
-    background-image: url(./../icons/Star_1024.svg);
-  }
-  ul > .star-icon:not(:first-child) {
-    margin-left: 2px;
-  }
-  .reviews {
-    width: 279.6px;
-    flex-basis: 47.88px;
-    font-size: 13.18px;
-    height: 16.54px;
-  }
-  .reviews-avatar {
-    width: 36.77px;
-    height: 36.77px;
-  }
-  .reviews-fullname-company-margin {
-    margin-left: 14.57px;
-  }
-  .reviews-fullname {
-    font-size: 12.49px;
-    line-height: 14.99px;
-  }
-  .reviews-company {
-    font-size: 9.02px;
-    line-height: 11.32px;
-  }
 }
 @media screen and (min-width: 1024px) {
   .reviews-section {
@@ -192,35 +162,8 @@ ul > .star-icon:not(:first-child) {
   .reviews-block-inner-margin {
     margin-left: 38px;
   }
-  .star-icon {
-    margin-top: 10px;
-    width: 13px;
-    height: 13px;
-    background-image: url(./../icons/Star_1024.svg);
-  }
   ul > .star-icon:not(:first-child) {
     margin-left: 5.55px;
-  }
-  .reviews {
-    width: 279.6px;
-    flex-basis: 47.88px;
-    font-size: 13.18px;
-    height: 16.54px;
-  }
-  .reviews-avatar {
-    width: 36.77px;
-    height: 36.77px;
-  }
-  .reviews-fullname-company-margin {
-    margin-left: 14.57px;
-  }
-  .reviews-fullname {
-    font-size: 12.49px;
-    line-height: 14.99px;
-  }
-  .reviews-company {
-    font-size: 9.02px;
-    line-height: 11.32px;
   }
 }
 @media screen and (min-width: 1336px) {
@@ -296,40 +239,25 @@ ul > .star-icon:not(:first-child) {
     margin-bottom: 81px;
     width: 813.03px;
     height: 392.3px;
-    box-shadow: inset 0px 0px 28.4276px rgba(0, 0, 0, 0.08);
-    border-radius: 14.2138px;
-  }
-  .reviews-list {
-    position: relative;
   }
   .reviews-arrow-left {
-    position: absolute;
     top: 259px;
     left: -23px;
     width: 44px;
     height: 44px;
-    border: none;
-    background-color: #ffffff;
     background-image: url(./../icons/Reviews_arrow_left_1920.svg);
   }
   .reviews-arrow-left:active {
-    border-radius: 50%;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     background-image: url(./../icons/Reviews_arrow_left_solid_1920.svg);
   }
   .reviews-arrow-right {
-    position: absolute;
     top: 259px;
     right: -23px;
     width: 44px;
     height: 44px;
-    border: none;
-    background-color: #ffffff;
     background-image: url(./../icons/Reviews_arrow_right_1920.svg);
   }
   .reviews-arrow-right:active {
-    border-radius: 50%;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     background-image: url(./../icons/Reviews_arrow_right_solid_1920.svg);
   }
   .reviews-block-inner-margin {
@@ -349,25 +277,20 @@ ul > .star-icon:not(:first-child) {
     flex-basis: 98.08px;
     font-size: 27.01px;
     height: 33.89px;
-    color: var(--medium-grey);
   }
   .reviews-avatar {
     width: 74.33px;
     height: 74.33px;
-    border-radius: 50%;
   }
   .reviews-fullname-company-margin {
     margin-left: 30px;
   }
   .reviews-fullname {
-    font-family: "TrajanPro3";
     font-size: 25.58px;
     line-height: 30.7px;
-    color: var(--dark-grey);
   }
   .reviews-company {
     font-size: 18.48px;
     line-height: 23.19px;
-    color: var(--green-color);
   }
 }

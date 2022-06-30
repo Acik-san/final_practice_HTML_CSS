@@ -49,6 +49,15 @@ p {
 .align-end {
   align-items: end;
 }
+.align-self-start {
+  align-self: flex-start;
+}
+.align-self-center {
+  align-self: center;
+}
+.align-self-end {
+  align-self: flex-end;
+}
 .burger {
   display: inline-block;
   width: 2.25rem;
@@ -68,6 +77,10 @@ p {
 .mulish-medium {
   font-style: normal;
   font-weight: 500;
+}
+.mulish-bold {
+  font-style: normal;
+  font-weight: 700;
 }
 .roboto-regular {
   font-family: "Roboto", sans-serif;
