@@ -87,7 +87,7 @@ ul .footer-list-item:nth-child(1n + 3) {
 .instagram-icon:hover {
   box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.63);
 }
-.footer-list-item:hover{
+.footer-list-item-link:hover{
   text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.76);
 }
 
