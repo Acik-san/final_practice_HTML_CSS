@@ -5,6 +5,10 @@
   border: 0.693686px solid #c2c1c2;
   border-radius: 6.93686px;
 }
+.benefits-block:hover {
+  border-color: var(--white-text-color);
+  box-shadow: 0px 0px 20px #DEDEDE;
+}
 .benefits-header {
   margin-left: 7.63px;
   flex-basis: 120px;

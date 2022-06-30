@@ -232,7 +232,7 @@ ul > .star-icon:not(:first-child) {
 }
 @media screen and (min-width: 1920px) {
   .reviews-section {
-    margin-top: 110px;
+    margin-top: 90px;
   }
   .reviews-block {
     margin-top: 87px;

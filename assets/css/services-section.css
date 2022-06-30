@@ -15,17 +15,35 @@ div.roboto-regular {
   background-color: #ffffff;
   background-repeat: no-repeat;
 }
-.green-arrow-left-margin{
+.green-arrow-left-margin {
   margin-left: 14px;
 }
-.green-arrow-right-margin{
+.green-arrow-right-margin {
   margin-right: 14px;
 }
 .green-arrow-left {
+  border-radius: 50%;
   background-image: url(./../icons/Green_arrow_left_768.svg);
 }
+.green-arrow-left:active {
+  background-size: 27px;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url(./../icons/Green_arrow_left_active_768.svg);
+  background-color: var(--green-color);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
 .green-arrow-right {
+  border-radius: 50%;
   background-image: url(./../icons/Green_arrow_right_768.svg);
+}
+.green-arrow-right:active {
+  background-size: 28px;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url(./../icons/Green_arrow_right_active_768.svg);
+  background-color: var(--green-color);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
 }
 .middle-img {
   width: 211px;
@@ -207,8 +225,16 @@ ul > .strip-list-item:not(:first-child) {
   .green-arrow-left {
     background-image: url(./../icons/Green_arrow_left_1024.svg);
   }
+  .green-arrow-left:active {
+    background-size: 38px;
+    background-image: url(./../icons/Green_arrow_left_active_1024.svg);
+  }
   .green-arrow-right {
     background-image: url(./../icons/Green_arrow_right_1024.svg);
+  }
+  .green-arrow-right:active {
+    background-size: 38px;
+    background-image: url(./../icons/Green_arrow_right_active_1024.svg);
   }
   .left-img {
     margin-top: 38px;
@@ -318,8 +344,16 @@ ul > .strip-list-item:not(:first-child) {
   .green-arrow-left {
     background-image: url(./../icons/Green_arrow_left_1336.svg);
   }
+  .green-arrow-left:active {
+    background-size: 44px;
+    background-image: url(./../icons/Green_arrow_left_active_1336.svg);
+  }
   .green-arrow-right {
     background-image: url(./../icons/Green_arrow_right_1336.svg);
+  }
+  .green-arrow-right:active {
+    background-size: 44px;
+    background-image: url(./../icons/Green_arrow_right_active_1336.svg);
   }
   .left-img {
     margin-top: 45px;
@@ -428,8 +462,16 @@ ul > .strip-list-item:not(:first-child) {
   .green-arrow-left {
     background-image: url(./../icons/Green_arrow_left_1920.svg);
   }
+  .green-arrow-left:active {
+    background-size: 61px;
+    background-image: url(./../icons/Green_arrow_left_active_1920.svg);
+  }
   .green-arrow-right {
     background-image: url(./../icons/Green_arrow_right_1920.svg);
+  }
+  .green-arrow-right:active {
+    background-size: 62px;
+    background-image: url(./../icons/Green_arrow_right_active_1920.svg);
   }
   .left-img {
     margin-top: 65px;

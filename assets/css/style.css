@@ -58,19 +58,8 @@ p {
 .align-self-end {
   align-self: flex-end;
 }
-.burger {
-  display: inline-block;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 50%;
-  box-shadow: 0 0 15px 0 #4eaf4f;
-  background-image: url(./../icons/Burger.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: cover;
-}
 .mulish-extralight {
-  /* font-family: "Mulish", sans-serif; */
+  font-family: "Mulish", sans-serif;
   font-style: italic;
   font-weight: 200;
 }
@@ -164,13 +153,6 @@ input[type="checkbox"]:checked::after {
   .flex-row-md {
     flex-direction: row;
   }
-  .burger {
-    width: 3.062rem;
-    height: 3.062rem;
-  }
-  .burger-none {
-    display: inline-block;
-  }
   .header-line {
     display: block;
   }
@@ -199,9 +181,6 @@ input[type="checkbox"]:checked::after {
   }
   .justify-space-around-lg {
     justify-content: space-around;
-  }
-  .burger-none {
-    display: none;
   }
   .header-line {
     display: block;
