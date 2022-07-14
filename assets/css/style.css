@@ -145,6 +145,11 @@ input[type="checkbox"]:checked::after {
 .transform-reverse {
   transform: scaleX(-1);
 }
+.text-overflow{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 @media screen and (min-width: 768px) {
   .justify-space-between-md {

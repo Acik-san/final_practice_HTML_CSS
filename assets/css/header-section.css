@@ -23,14 +23,13 @@
   display: none;
 }
 .logo {
+  flex-basis: 147px;
   font-weight: 700;
   font-size: 1.12rem;
   line-height: 1.41rem;
 }
-.phone-number {
-  font-weight: 700;
-  font-size: 1.95rem;
-  line-height: 2.45rem;
+.free-consultation{
+  padding-right: 25px;
 }
 .btn-header {
   border-color: var(--white-text-color);
@@ -62,6 +61,7 @@
     height: 5.81rem;
   }
   .logo {
+    flex-basis: 255.57px;
     font-size: 1.69rem;
     line-height: 2.13rem;
   }
@@ -91,10 +91,6 @@
     margin-left: 14px;
     margin-right: 6px;
   }
-  .logo {
-    font-size: 1.69rem;
-    line-height: 2.13rem;
-  }
   .header-none {
     display: flex;
   }
@@ -113,11 +109,16 @@
     background-image: url(./../icons/Vector_1024.svg);
   }
   .phone-number {
+    width: 204.62px;
+    font-weight: 700;
     font-size: 1.167rem;
     line-height: 1.465rem;
   }
+  .free-consultation{
+    width: 223.04px;
+  }
   .btn-header {
-    width: 182.781px;
+    width: 191.781px;
     padding-top: 0.72rem;
     padding-bottom: 0.72rem;
     padding-left: 1.92rem;
@@ -127,6 +128,15 @@
     width: 1.07rem;
     height: 1.07rem;
     background-image: url(./../icons/Group_1024.svg);
+  }
+  .signin-register{
+    width: 130.32px;
+  }
+  .sign-in{
+    flex-basis: 83px;
+  }
+  .register{
+    flex-basis: 167px;
   }
 }
 @media screen and (min-width: 1336px) {
@@ -146,6 +156,7 @@
     display: flex;
   }
   .logo {
+    flex-basis: 301px;
     font-size: 2rem;
     line-height: 2.51rem;
   }
@@ -161,11 +172,15 @@
     background-image: url(./../icons/Vector_1336.svg);
   }
   .phone-number {
+    width: 241px;
     font-size: 1.375rem;
     line-height: 1.725rem;
   }
+  .free-consultation{
+    width: 263px;
+  }
   .btn-header {
-    width: 209.812px;
+    width: 219.672px;
     padding-top: 0.82rem;
     padding-bottom: 0.82rem;
     padding-left: 2.12rem;
@@ -176,6 +191,10 @@
     height: 1.26rem;
     background-image: url(./../icons/Group_1336.svg);
   }
+  .signin-register{
+    width: 152.32px;
+  }
+  
 }
 @media screen and (min-width: 1920px) {
   .header-section {
@@ -194,6 +213,7 @@
     display: flex;
   }
   .logo {
+    flex-basis: 427.84px;
     font-size: 2.84rem;
     line-height: 3.56rem;
   }
@@ -209,11 +229,15 @@
     background-image: url(./../icons/Vector_1920.svg);
   }
   .phone-number {
+    width: 342.55px;
     font-size: 1.95rem;
     line-height: 2.45rem;
   }
+  .free-consultation{
+    width: 372.48px;
+  }
   .btn-header {
-    width: 282.672px;
+    width: 296.672px;
     padding-top: 1.12rem;
     padding-bottom: 1.12rem;
     padding-left: 2.62rem;
@@ -223,5 +247,8 @@
     width: 2.21rem;
     height: 2.21rem;
     background-image: url(./../icons/Group_1920.svg);
+  }
+  .signin-register{
+    width: 253.32px;
   }
 }

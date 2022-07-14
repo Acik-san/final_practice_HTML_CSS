@@ -72,12 +72,14 @@ ul > .star-icon:not(:first-child) {
   margin-left: 14.57px;
 }
 .reviews-fullname {
+  width: 230px;
   font-family: "TrajanPro3";
   font-size: 12.49px;
   line-height: 14.99px;
   color: var(--dark-grey);
 }
 .reviews-company {
+  width: 230px;
   font-size: 9.02px;
   line-height: 11.32px;
   color: var(--green-color);
@@ -222,10 +224,12 @@ ul > .star-icon:not(:first-child) {
     margin-left: 21px;
   }
   .reviews-fullname {
+    width: 310px;
     font-size: 18px;
     line-height: 21.6px;
   }
   .reviews-company {
+    width: 310px;
     font-size: 13px;
     line-height: 16.32px;
   }
@@ -286,10 +290,12 @@ ul > .star-icon:not(:first-child) {
     margin-left: 30px;
   }
   .reviews-fullname {
+    width: 430px;
     font-size: 25.58px;
     line-height: 30.7px;
   }
   .reviews-company {
+    width: 430px;
     font-size: 18.48px;
     line-height: 23.19px;
   }

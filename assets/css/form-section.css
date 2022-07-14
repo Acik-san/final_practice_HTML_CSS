@@ -48,7 +48,7 @@
 
 .submit-btn {
   flex-shrink: 0;
-  /* width: 106.438px; */
+  width: 109px;
   padding-top: 7.19px;
   padding-bottom: 7.19px;
   padding-left: 17.14px;
@@ -105,6 +105,7 @@
 }
 .white-background-btn {
   align-self: flex-start;
+  width: 194px;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 50px;
@@ -154,9 +155,11 @@
     text-align: center;
   }
   .online-counter {
+    width: 42px;
     margin-top: 4px;
     font-size: 0.4rem;
     line-height: 0.5rem;
+    text-align: center;
     color: var(--white-text-color);
   }
   .input-question {
@@ -174,6 +177,7 @@
   }
   .submit-btn {
     align-self: flex-start;
+    width: 148px;
     padding-top: 6.91px;
     padding-bottom: 6.91px;
     padding-left: 27.25px;
@@ -255,8 +259,11 @@
     margin-right: 70px;
     font-size: 0.701rem;
     line-height: 0.88rem;
+    -webkit-line-clamp: 1;
+    max-height: calc(1.5rem * 1);
   }
   .submit-btn {
+    width: 153px;
     padding-top: 10.42px;
     padding-bottom: 10.42px;
     padding-left: 24.86px;
@@ -350,6 +357,7 @@
     line-height: 1.098rem;
   }
   .submit-btn {
+    width: 200px;
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 33px;
@@ -382,6 +390,7 @@
     line-height: 1rem;
   }
   .white-background-btn {
+    width: 220px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 56px;
@@ -417,6 +426,7 @@
     text-align: center;
   }
   .online-counter {
+    width: 65px;
     margin-top: 5px;
     font-size: 0.6rem;
     line-height: 0.625rem;
@@ -441,6 +451,7 @@
     line-height: 1.562rem;
   }
   .submit-btn {
+    width: 266px;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 44px;
@@ -473,6 +484,7 @@
     line-height: 1.45rem;
   }
   .white-background-btn {
+    width: 340px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 94px;

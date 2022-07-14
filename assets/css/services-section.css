@@ -75,6 +75,7 @@ p.services-text {
   line-height: 13px;
 }
 a.services-text {
+  width: 55px;
   margin-top: 13px;
   margin-bottom: 9px;
   align-self: center;
@@ -184,6 +185,7 @@ ul > .strip-list-item:not(:first-child) {
     line-height: 11.77px;
   }
   a.services-text {
+    width: 66px;
     margin-top: 13px;
     margin-bottom: 9px;
     align-self: center;
@@ -419,6 +421,7 @@ ul > .strip-list-item:not(:first-child) {
     line-height: 19.05px;
   }
   a.services-text {
+    width: 81px;
     margin-top: 20px;
     margin-bottom: 16px;
     align-self: center;
@@ -537,6 +540,7 @@ ul > .strip-list-item:not(:first-child) {
     line-height: 27.08px;
   }
   a.services-text {
+    width: 114px;
     margin-top: 33px;
     margin-bottom: 22px;
     align-self: center;
